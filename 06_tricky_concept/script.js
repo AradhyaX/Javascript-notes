@@ -25,3 +25,10 @@ if (true) {
   let blockVar = 'I am block scoped';
   console.log(blockVar);
 }
+
+
+
+//! HOISTING IN JAVASCRIPT
+
+var age = 20;
+console.log(age);
