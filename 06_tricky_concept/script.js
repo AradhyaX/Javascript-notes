@@ -32,3 +32,16 @@ if (true) {
 
 var age = 20;
 console.log(age);
+
+
+
+
+//! CLOSURES IN JAVASCRIPT
+
+const outer = () => {
+  const outerVar = 'Hello';
+
+  console.log(outerVar);
+}
+
+outer();
