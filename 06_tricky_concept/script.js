@@ -20,7 +20,7 @@ someFunction();
 
 
 
-//!BLOCK SCOPE
+//!BLOCK SCOPE-
 if (true) {
   let blockVar = 'I am block scoped';
   console.log(blockVar);
@@ -28,7 +28,7 @@ if (true) {
 
 
 
-//! HOISTING IN JAVASCRIPT
+//! HOISTING IN JAVASCRIPT-
 
 var age = 20;
 console.log(age);
@@ -36,7 +36,7 @@ console.log(age);
 
 
 
-//! CLOSURES IN JAVASCRIPT
+//! CLOSURES IN JAVASCRIPT-
 
 const outer = () => {
   const outerVar = 'Hello';
