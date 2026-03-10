@@ -16,3 +16,6 @@ const upperCaseString = mixedCaseString.toUpperCase();
 
 
 console.log(upperCaseString);
+
+
+//! Searching for a Substring
