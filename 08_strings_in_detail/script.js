@@ -19,3 +19,19 @@ console.log(upperCaseString);
 
 
 //! Searching for a Substring
+
+const hobbies = 'I love HTML, CSS and JavaScript.';
+
+// indexOf()
+const index = hobbies.lastIndexOf('JavaScript');
+
+// last IndexOf()
+const lastIndex = hobbies.lastIndexOf('JavaScript');
+
+//includes()
+const includesJavaScript = hobbies.includes('react');
+
+// startWith()
+console.log(hobbies.startsWith('I love'));
+// endsWith()
+console.log(hobbies.endsWith('JavaScript.'));
