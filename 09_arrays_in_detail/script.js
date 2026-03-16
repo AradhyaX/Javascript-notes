@@ -12,3 +12,14 @@ for (let i = 0; i < days.length; i++) {
   
 }
 
+
+const name = ['jon','Bob','David','Mark'];
+
+//! Array Push - Adds a new element containing the entered value to the end of the array.
+
+names.push('Dean');
+
+console.log(length);
+
+//! Array Pop - Deletes the last element of an array
+names.pop();
