@@ -23,3 +23,14 @@ console.log(length);
 
 //! Array Pop - Deletes the last element of an array
 names.pop();
+
+//! Array Shift - Deletes the first element of an array
+names.shift();
+
+//! Array Unshift - Adds a new value to the start of an array
+names.unshift('Dean');
+
+//! Array Splice
+names.Splice(2,2,'Jenny','Johnny');
+
+console.log(names);
