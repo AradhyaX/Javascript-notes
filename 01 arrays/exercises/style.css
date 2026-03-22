@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(24, 147, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.field {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
