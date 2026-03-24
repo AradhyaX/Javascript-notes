@@ -82,3 +82,45 @@ toDos2.push('fix desk', 'iron shirt')
 
 console.log(toDos2)
 // returns ['wash up', 'call mum', 'take out bins', 'fix desk', 'iron shirt']
+
+
+//! .splice() - it removes or replaces items in an array.
+
+const months = ['Jan', 'Mar', 'Apr', 'May']
+months.splice(1,0,'feb')
+
+console.log(months)
+// returns ['jan','Feb','Mar','Apr','May']
+
+
+//! .slice() - This method makes a copy of a selection of an array, and returns it.
+//* it DOESNOT CHANGE the original array,it makes a NEW one.
+
+const kitKatFlavours = ['wasabi', 'peanut', 'strawberry', 'matcha']
+const myFavourite = kitKatFlavours.slice(1,3)
+// slice(startIndex, endIndex)
+
+console.log(myFavourite)
+// returns ['peanut', 'strawberry']
+
+
+//! .forEach() - 
+//  items.forEach(item => console.log(item))
+// The .forEach() methods executes code for every item in an array.
+// It will Not create a new array or change the original array.
+
+const gameTotals = [23, 16, 34, 232]
+
+gameTotals.forEach(gameTotal => console.log(gameTotal + 10))
+
+gameTotals.forEach((gameTotal, index) => {
+  const playerNumber = index + 1
+  const newTotal = gameTotal + 10
+  console.log("player" + playerNumber +"'s total is" + newTotal)
+})
+
+
+
+
+                                        
+
