@@ -120,6 +120,9 @@ gameTotals.forEach((gameTotal, index) => {
 })
 
 
+//! .some()
+//  items.some(item => item == orange)
+.some
 
 
                                         
